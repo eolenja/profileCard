@@ -1,0 +1,45 @@
+img{ 
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+body{
+    font-family:fantasy;
+    background-color:#feb9ff;
+    margin-top: 75px;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+
+}
+/* targeting my profile card */
+.profile-card{
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+    padding:15px;
+}
+
+h1{
+    color: rgb(195, 133, 253);
+    margin: 10px 0 5px 0;
+}
+
+p{
+    color:black;
+}
+
+.btn{
+    display: inline-blocking;
+    padding:10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color:hotpink;
+    border-radius:5px;
+
+
+}
+
